@@ -1,0 +1,92 @@
+/* src/App.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  margin: 10px;
+  width: 794px; /* A4 width */
+  height: auto;
+  margin: 1% auto 1% auto;
+  padding: 0.2cm 1.3cm 1cm 1.3cm;
+  box-shadow: 0 0 20px rgb(#000);
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.header,
+.summary,
+.education,
+.experience,
+.certificates,
+.projects,
+.achievements,
+.skills,
+.links,
+.declaration {
+  margin-bottom: 10px;
+}
+
+.header input,
+.header-right input,
+.summary textarea,
+.education input,
+.experience input,
+.experience textarea,
+.certificates input,
+.projects input,
+.projects textarea,
+.achievements input,
+.achievements textarea,
+.skills input,
+.links input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+@media print {
+  .actions,
+  button {
+    display: none;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+  }
+  .container {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
+}
+

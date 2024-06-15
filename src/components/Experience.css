@@ -1,0 +1,68 @@
+/* src/components/Experience.css */
+.experience {
+    margin-bottom: 20px;
+  }
+  
+  .experience h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .experience-item {
+    margin-bottom: 15px;
+  }
+  
+  .position-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .company-dates {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .company-input,
+  .date-input {
+    width: 32%;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .description-input {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border: none;
+  }
+  
+  .delete-button,
+  .add-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    margin-top: 15px;
+  }
+  
+  .delete-button:hover,
+  .add-button:hover {
+    opacity: 0.8;
+  }
+  

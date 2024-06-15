@@ -1,0 +1,43 @@
+/* src/components/Projects.css */
+.projects {
+    margin-bottom: 20px;
+  }
+  
+  .projects h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .project-title-input,
+  .project-date-input,
+  .project-site-input,
+  .project-summary-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .delete-button,
+  .add-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+  .add-button {
+    background-color: #4CAF50;
+    margin-top: 15px;
+  }
+  
+  .delete-button:hover,
+  .add-button:hover {
+    opacity: 0.8;
+  }
