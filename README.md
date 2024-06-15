@@ -1,4 +1,4 @@
-resumeapp0.netlify.app
+https://resumeapp0.netlify.app/
 
 # Getting Started with Create React App
 
